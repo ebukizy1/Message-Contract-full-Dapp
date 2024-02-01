@@ -1,0 +1,43 @@
+  .App {
+    background: linear-gradient(180deg, #f733f8 0%, #2f31c8 100%);
+    position: relative;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    height: 600px;
+    padding: 1em;
+    color: white;
+  }
+
+  input, button {
+    display: block;
+    outline: none;
+    color: #ca33f8;
+    font-size: large;
+    width: 100%;
+    border: none;
+    padding: 1em;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  button {
+    background-color: rgba(255, 255, 255, 0.642);
+    font-weight: 900;
+  }
+  
+
+  button:hover,
+  button:focus {
+    background-color: magenta; 
+    color: white;
+  }
+  
+  div > p {
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
